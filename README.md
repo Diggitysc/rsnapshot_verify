@@ -9,6 +9,9 @@ Example:
 python /opt/rsnapshot_verify.py /backups/web_server
 
 If you have a MAILTO set up rsnapshot will email if:
+------------------------------------------------------
 1) Daily.0 does not exist
+
 2) The current backup has an old verify date
+
 3) Folders are backed up but the contents are not
